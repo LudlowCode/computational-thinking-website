@@ -1,0 +1,25 @@
+body {
+    background-color:lightslategrey;
+    background-image: url(https://img.freepik.com/free-photo/motherboard-circuit-technology-background-gradient-blue_53876-124645.jpg);
+    padding:20px;
+}
+
+p {
+    text-align:center;
+}
+
+.background{
+    width:1000px;
+    background-color:lightslategray;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    max-width:2500px;
+    height:750px;
+    text-align:center;
+}
+
+h1{
+    text-align:center;
+}
+

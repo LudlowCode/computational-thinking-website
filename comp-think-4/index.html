@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Computational Thinking</title>
+</head>
+<body>
+    <h1 id="header">Computational Thinking</h1>
+    <button onclick="darkmode()" class="button" id="bgchange">Change To Dark Mode</button>
+    <section id="Question1">
+        <fieldset>
+            <legend>Which is described as breaking down a problem into smaller, more manageable parts</legend>
+            <div>
+              <input type="radio" id="Decomposition1" name="Q1" value="1">
+              <label for="Decomposition1">Decomposition</label>
+            </div>
+            <div>
+                <input type="radio" id="Abstraction1" name="Q1" value="0">
+                <label for="Abstraction1">Abstraction</label>
+            </div>
+            <div>              
+                <input type="radio" id="Algorithm1" name="Q1" value="0">
+                <label for="Algorithm1">Algorithm</label>
+            </div>              
+            <div>
+                <input type="radio" id="Pattern Recognition1" name="Q1" value="0">
+                <label for="Pattern Recognition1">Pattern Recognition</label>
+            </div>
+        </fieldset>
+    </section>
+    <section id="Question2">
+        <fieldset>
+            <legend>What is a data analysis method that uses machine learning algorithms to automatically recognize patterns and regularities in data</legend>
+            <div>
+              <input type="radio" id="Decomposition2" name="Q2" value="0">
+              <label for="Decomposition2">Decomposition</label>
+            </div>
+            <div>
+                <input type="radio" id="Abstraction2" name="Q2" value="0">
+                <label for="Abstraction2">Abstraction</label>
+            </div>
+            <div>              
+                <input type="radio" id="Algorithm2" name="Q2" value="0">
+                <label for="Algorithm2">Algorithm</label>
+            </div>              
+            <div>
+                <input type="radio" id="Pattern Recognition2" name="Q2" value="1">
+                <label for="Pattern Recognition2">Pattern Recognition</label>
+            </div>
+        </fieldset>
+    </section>
+    <section id="Question3">
+        <fieldset>
+            <legend>What is the process of removing elements of a code or program that aren't relevant or that distract from more important elements</legend>
+            <div>
+              <input type="radio" id="Decomposition3" name="Q3" value="0">
+              <label for="Decomposition3">Decomposition</label>
+            </div>
+            <div>
+                <input type="radio" id="Abstraction3" name="Q3" value="1">
+                <label for="Abstraction3">Abstraction</label>
+            </div>
+            <div>              
+                <input type="radio" id="Algorithm3" name="Q3" value="0">
+                <label for="Algorithm3">Algorithm</label>
+            </div>              
+            <div>
+                <input type="radio" id="Pattern Recognition3" name="Q3" value="0">
+                <label for="Pattern Recognition3">Pattern Recognition</label>
+            </div>
+        </fieldset>
+    </section>
+    <section id="Question4">
+        <fieldset>
+            <legend>Which one is a set of instructions that is designed to accomplish a task</legend>
+            <div>
+              <input type="radio" id="Decomposition4" name="Q4" value="0">
+              <label for="Decomposition4">Decomposition</label>
+            </div>
+            <div>
+                <input type="radio" id="Abstraction4" name="Q4" value="0">
+                <label for="Abstraction4">Abstraction</label>
+            </div>
+            <div>              
+                <input type="radio" id="Algorithm4" name="Q4" value="1">
+                <label for="Algorithm4">Algorithm</label>
+            </div>              
+            <div>
+                <input type="radio" id="Pattern Recognition4" name="Q4" value="0">
+                <label for="Pattern Recognition4">Pattern Recognition</label>
+            </div>
+        </fieldset>
+    </section>
+    <button onclick="results()" class="button" type="submit">Submit</button>
+    <p id="Result">Your results will appear here</p>
+    <p id="Attempt">Attempts:</p>
+</body>
+</html>

@@ -1,0 +1,125 @@
+ body {
+    background-image: url(background.jpg);
+   
+   
+ }
+
+ 
+
+ .website {
+    width: 80%;
+    background-color: #ccffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+ 
+ 
+img {
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+} 
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: black;
+}
+
+h2 {
+    font-size: 30px;
+    color: black;
+}
+
+.explanation {
+    font-style: italic;
+    color: black;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: black;
+}
+
+
+
+hr {
+    height: 2px;
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+    color: black;
+}
+
+
+.Decomposition {
+    font-weight: bold;
+    color:rgb(255, 0, 0);
+
+}
+
+
+
+.Pattern_Recognition {
+    font-weight: bold;
+    color: lightskyblue;
+}
+
+
+
+.Abstraction {
+    font-weight: bold;
+    color: palevioletred;
+}
+
+
+
+.Generalisation {
+    font-weight: bold;
+    color: rgba(114, 202, 59, 0.911);
+}
+
+
+
+.Algorithms {
+    font-weight: bold;
+    color: rgb(255, 230, 0);
+}
+
+
+ul {
+    color: black;
+}
+
+
+
+
+footer {
+    font-size: 15px;
+}
+
+a {
+    color: purple;
+}
+
+a:visited {
+    color: darkslateblue;
+}
+
+a:hover {
+    color: darkorchid;
+}
+
+a:active {
+    color: blue;
+}

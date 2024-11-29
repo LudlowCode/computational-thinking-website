@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    background-color: white;
+    color: rgb(13, 9, 9);
+    font-family: Inter;
+}
+h1 {
+    color: black;
+    font-family: Inter;
+}
+header {
+    color: black;
+    font-family: Inter;
+}
+section {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+fieldset {
+    border: none;
+}
+button {
+    /* background-color: rgb(34, 90, 242); */
+    background-color: #428df5;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+}
+div {
+    width: fit-content;
+    border-radius: 5px;
+    padding: 3px;
+}
+fieldset div > label {
+    margin-right: 5px;
+}
+body.dark {
+    background-color: rgb(19, 17, 17);
+    color: white;
+}
+h1.dark {
+    color: white;
+}
+header.dark {
+    color: white;
+}
+.dark button {
+    background-color: blue;
+    color: white;
+}
+@font-face {
+    font-family: Jost;
+    src: url("./font/Jost-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: Inter;
+    src: url("./font/Inter/Inter-VariableFont_opsz,wght.ttf");
+}
+#Attempt {
+    font-family: Jost;
+}

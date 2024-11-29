@@ -1,0 +1,371 @@
+ 
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src=""></script>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<head>
+
+<style>
+       #DE, #AB, #PR, #AL{
+           display: none; /*Hide the text initially */
+           margin-top: 10px;
+       }
+</style>
+<style>
+  #submitButton {
+      padding: 10px 20px;
+      background-color: red; /* Default color */
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+  }
+    #splash-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(loading-GIF.webp?csf=1&web=1&e=fvXkJ8);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    #splash-screen.hidden {
+      display: none;
+    }
+    #main-content {
+      display: none;
+    }
+
+    #main-content.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div id="splash-screen">
+    Click to make the content appear! Its magic!
+  </div>
+  <div id="main-content">
+    <header><h1>Computational thinking</h1>
+      <h2>Get to know more about computational thinking!</h2>
+    </header>
+      <title>Toggle Text on Button Click</title>
+    <fieldset>
+      <button onclick="toggleText0()">Decomposition</button><br><br>
+      <p id="DE" class="typewriter">Decomposition is the first step, where a large problem is divided into smaller,
+           simpler parts. By breaking down a task into its components, you can focus on solving each piece
+            individually. This method reduces complexity and allows you to tackle each part separately. 
+            <br>
+            For example, if you're planning a party, decomposition would involve separating tasks like 
+            sending invitations, preparing food, setting up decorations, and organizing activities.</p>
+      <script>
+          // Decompostion button
+             function toggleText0() {
+                 var text = document.getElementById("DE");
+                 if (text.style.display === "none" || text.style.display === "") {
+                     text.style.display = "block";  // Show the text
+                 } else {
+                     text.style.display = "none";  // Hide the text
+                 }
+             }
+      </script>
+      
+      <button onclick="toggleText1()">Abstraction</button><br><br>
+      <p id="AB" class="typewriter">Abstraction is stripping away unnecessary details and focusing only on the important 
+          information needed to solve the problem. By ignoring irrelevant elements, you can simplify the 
+          process <br> and concentrate on the core aspects of the task. In an escape room, for instance, 
+          abstraction would involve focusing on the clues and puzzles that matter, 
+          rather than being <br> distracted by props or items that don’t contribute to solving the challenge.</p>
+      <script>
+          // Abstraction button
+             function toggleText1() {
+                 var text = document.getElementById("AB");
+                 if (text.style.display === "none" || text.style.display === "") {
+                     text.style.display = "block";  // Show the text
+                 } else {
+                     text.style.display = "none";  // Hide the text
+                 }
+             }
+      </script>
+      
+      <button onclick="toggleText2()">Pattern recognition</button><br><br>
+      <p id="PR" class="typewriter">Pattern recognition is      
+         the next step, where you look for similarities, trends,
+           or repeating elements in the problem. This step allows you to apply solutions from past 
+           experiences <br> or identify shortcuts when familiar structures emerge. Recognizing patterns 
+           is essential in solving puzzles or tasks efficiently, such as noticing that certain codes
+            or <br>locks in an escape room follow similar rules,  allowing you to reuse solutions that have 
+            worked before.</p>
+      <script>
+          // Pattern recognition button
+             function toggleText2() {
+                 var text = document.getElementById("PR");
+                 if (text.style.display === "none" || text.style.display === "") {
+                     text.style.display = "block";  // Show the text
+                 } else {
+                     text.style.display = "none";  // Hide the text
+                 }
+             }
+      </script>
+      <button onclick="toggleText3()">Algorithms</button><br><br>
+      <p id="AL" class="typewriter">Algorithms involve creating a step-by-step process to solve the problem.
+           Algorithms provide a structured approach to completing tasks, ensuring that you follow a 
+           consistent method. <br> In cooking, for instance, a recipe serves as an algorithm, 
+           guiding you from start to finish with clear instructions. <br>
+           Algorithms help ensure that nothing is overlooked, and they make the problem-solving process
+           repeatable.</p>
+      <script>
+          // Algorithms button
+             function toggleText3() {
+                 var text = document.getElementById("AL");
+                 if (text.style.display === "none" || text.style.display === "") {
+                     text.style.display = "block";  // Show the text
+                 } else {
+                     text.style.display = "none";  // Hide the text
+                 }
+             }
+      </script>
+      </fieldset>
+      <br><br>
+      <fieldset id="2">
+      <style>
+          .hidden {
+            display: none;
+          }
+        </style>
+      
+      <body>
+        <h1>Click the right option:</h1>
+        <h3>Which of these is Decomposition:</h3>
+        <ul>
+          <li onclick="checkAnswer0('Incorrect')">Simplifying water in a test car game to be a single blue colour </li>
+          <li onclick="checkAnswer0('Incorrect')">Following some instructions on how to build a game</li>
+          <li onclick="checkAnswer0('Correct0')">Breaking down the building of this webpage into multiple smaller tasks</li>
+        </ul>
+      
+        <p id="message0" class="hidden" class="typewriter">Congratulations! You've selected the example of decomposition. Number 1 was abstraction and Number 2 was an algorithm</p>
+      
+        <script>
+          function checkAnswer0(option) {
+            const message = document.getElementById("message0");
+            
+            if (option === "Correct0") {
+              message.classList.remove("hidden");
+            } else {
+              message.classList.add("hidden");
+            }
+          }
+        </script>
+      
+      <h3>Which of these is abstraction:</h3>
+      <ul>
+        <li onclick="checkAnswer1('Correct1')">Making the leafy part of a tree one piece and a single colour </li>
+        <li onclick="checkAnswer1('Incorrect')">recording the results of a test to identify the average grade</li>
+        <li onclick="checkAnswer1('Incorrect')">Breaking down the route to a station into several smaller sections</li>
+      </ul>
+      
+      <p id="message1" class="hidden" class="typewriter">Congratulations! You've selected the example of abstraction. Number 2 was pattern recognistion and Number 3 was an decomposition</p>
+      
+      <script>
+        function checkAnswer1(option) {
+          const message = document.getElementById("message1");
+          
+          if (option === "Correct1") {
+            message.classList.remove("hidden");
+          } else {
+            message.classList.add("hidden");
+          }
+        }
+      </script>
+      
+      <h3>Which of these is pattern recognition:</h3>
+      <ul>
+        <li onclick="checkAnswer2('Incorrect')">Ignoring the sky colour in a top down game</li>
+        <li onclick="checkAnswer2('Correct2')">Recording where users stopped or failed to use your webpage</li>
+        <li onclick="checkAnswer2('Incorrect')">Making a set of instructions for how to use a product</li>
+      </ul>
+      
+      <p id="message2" class="hidden" class="typewriter">Congratulations! You've selected the example of pattern recognition. Number 1 was abstraction and Number 3 was an algorithm</p>
+      
+      <script>
+        function checkAnswer2(option) {
+          const message = document.getElementById("message2"); 
+          
+          if (option === "Correct2") {
+            message.classList.remove("hidden");
+          } else {
+            message.classList.add("hidden");
+          }
+        }
+      </script>
+      
+      <h3>Which of these is an algorithm:</h3>
+      <ul>
+        <li onclick="checkAnswer3('Correct3')">Follow an online guide on how to code</li>
+        <li onclick="checkAnswer3('Incorrect')">Removing trees from a road map </li>
+        <li onclick="checkAnswer3('Incorrect')">Recording the number of people who got the question before wrong and this question wrong </li>
+      </ul>
+      
+      <p id="message3" class="hidden" class="typewriter">Congratulations! You've selected the algorithm. Number 2 was abtraction and Number 3 was an pattern recognition</p>
+      
+      <script>
+        function checkAnswer3(option) {
+          const message = document.getElementById("message3");
+          
+          if (option === "Correct3") {
+            message.classList.remove("hidden");
+          } else {
+            message.classList.add("hidden");
+          }
+        }
+      </script>
+        </body>
+             </fieldset>  
+          <fieldset>
+            <h3>Summary</h3>
+            <p>
+              Decomposition is the first of the 4 sections of computational thinking. This is when you  
+              <select id="DEC1" onchange="checkAnswerDEC1()">
+                  <option value="1">remove unnecessary colours</option>
+                  <option value="2">break the task down into smaller parts</option>
+                  <option value="3">a set of instructions to complete a task</option>
+                  <option value="4">recognise 
+                    
+                    patterns in a set of data</option>
+              </select> 
+              which makes the task
+              <select id="DEC2" onchange="checkAnswerDEC2()">
+                  <option value="1">longer</option>
+                  <option value="2">easier</option>
+                  <option value="3">better organised</option>
+                  as you can look at each part separately.
+              </select>.
+          </p>
+          
+          <script src= Index.js></script>
+          <p>
+            Abstraction is the second of the 4 sections of computational thinking. This is when you  
+            <select id="ABS1" onchange="checkAnswerABS1()">
+                <option value="1">remove unnecessary colours</option>
+                <option value="2">break the task down into smaller parts</option>
+                <option value="3">a set of instructions to complete a task</option>
+                <option value="4">recognise patterns in a set of data</option>
+            </select> 
+            which makes the program
+            <select id="ABS2" onchange="checkAnswerABS2()">
+                <option value="1">simpler</option>
+                <option value="2">less relevant</option>
+                <option value="3">nicer</option>
+                overall.
+            </select>.
+        </p>
+      
+        <script src= Index.js></script>
+        
+        <p>
+          Pattern Recognoition is the third of the 4 sections of computational thinking. This is when you  
+          <select id="PAT1" onchange="checkAnswerPAT1()">
+              <option value="1">remove unnecessary colours</option>
+              <option value="2">break the task down into smaller parts</option>
+              <option value="3">a set of instructions to complete a task</option>
+              <option value="4">recognise patterns in a set of data</option>
+          </select> 
+          which means you end up with
+          <select id="PAT2" onchange="checkAnswerPAT2()">
+              <option value="1">a big unordered list </option>
+              <option value="2">random boolean answers</option>
+              <option value="3">easy, organised notes on the problems or good parts</option>
+              which helps analyse the performance of your program.
+          </select>.
+      </p>
+      
+      <script src= Index.js></script>
+      
+      <p>
+        Algorithms are the last of the 4 sections of computational thinking. This is when you write/use
+        <select id="ALG1" onchange="checkAnswerALG1()">
+            <option value="1">remove unnecessary colours</option>
+            <option value="2">break the task down into smaller parts</option>
+            <option value="3">a set of instructions to complete a task</option>
+            <option value="4">recognise patterns in a set of data</option>
+        </select> 
+        which helps 
+        <select id="ALG2" onchange="checkAnswerALG2()">
+            <option value="1">you or someone else complete the task</option>
+            <option value="2">the user</option>
+            as they can complete it easier and faster.
+        </select>.
+      </p>
+      
+      <script src= Index.js></script>
+      
+          </fieldset>  
+  </div>
+</body>
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </html>

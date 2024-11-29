@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" 
+          content="width=device-width,
+                   initial-scale=1.0" />
+    <link rel="stylesheet"
+          href="TheCStestScript.css" />
+    <title>The computational thinking test</title>
+</head>
+
+<body>
+    <div class="containerNew">
+        <header>
+            <div>
+                <a href="LaTest.html.html">
+                    <button class="scores-header" 
+                            id="view-high-scores">
+                        Do not Click, your eyes will hurt.
+                    </button>
+                </a>
+            </div>
+
+            <div class="timer">
+                <p>
+                    
+                    <span id="timer">
+                        
+                    </span>
+                </p>
+            </div>
+        </header>
+
+        <main class="quiz">
+            <div id="quiz-start">
+                <div class="landing" 
+                     id="start-screen">
+                    <h1 id="top">
+                        THE TEST
+                    </h1>
+                    <h1>
+                        This is The test For Computational Thinking, Your Probably Gonna Fail.
+                    </h1>
+                    <p>
+                        I know you will do bad...
+                    </p>
+                    <button id="start">
+                        Begin the Challenge
+                    </button>
+                </div>
+            </div>
+
+            <div class="hide" id="questions">
+                <h2 id="question-words"></h2>
+                <div class="options" id="options">
+                </div>
+            </div>
+
+            <div class="hide" id="quiz-end">
+                <h2>You have succeded in finnishing...</h2>
+                <p>But Your Final Score Is:
+                    <span id="score-final">
+                    </span>
+                    OUT OF 10000.
+                    MUAHAHAHA
+                </p>
+                <p>
+                    Please enter your name so we know how terrible you are:
+                    <input type="text" 
+                           id="name" 
+                           max="3" />
+                    <button id="submit-score">
+                        Submit
+                    </button>
+                </p>
+            </div>
+
+            <div id="feedback" 
+                 class="feedback hide">
+            </div>
+        </main>
+    </div>
+    <script src="TheJStestScript.js"></script>
+</body>
+
+</html>

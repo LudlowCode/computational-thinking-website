@@ -1,0 +1,71 @@
+body {
+    background-image: url(YIPPEE.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Times New Roman;
+    padding: 50px;
+    z-index: 1;
+} 
+
+h1 {
+    font-size: 50px;
+    z-index: 1;
+}
+.sillything{
+    width: 80%;
+    background-color: lightcyan;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    max-width: 350px;
+    z-index: 1;
+}
+
+.dontclick{
+    text-align: left;
+    margin-left: 0%;
+}
+.funny-1{
+    margin-top: 0%;
+}
+
+#soggyaltaria{
+    float: left;
+    margin-top: 30%;
+    margin-left: 25%;
+    z-index: 2;
+}
+
+#a-video{
+    float: right;
+    margin-top: 0%;
+    margin-right: 0%
+}
+
+#wulta{
+    float: left;
+    margin-top: 10%;
+    margin-left: 0%;
+    z-index: 3;
+}
+
+#goku{
+    float: left;
+    margin-top: 0%;
+    margin-left: 0%;
+    z-index: 4;
+}
+
+#minecraft{
+    float: left;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-right: 100%;
+    padding-bottom: 0%;
+    z-index: 5;
+}
+
+#sans{
+    float: right;
+    margin-top: 50%
+}

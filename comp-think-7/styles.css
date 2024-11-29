@@ -1,0 +1,72 @@
+body {
+  background-image: url(https://th.bing.com/th/id/R.698d755a8aacc2f0b5957448fe7f592a?rik=FfyOu%2fx8LaARPQ&riu=http%3a%2f%2fimg.youtube.com%2fvi%2fAb4SsLVlAjY%2fmaxresdefault.jpg&ehk=lSg%2fSUiIwrQbrWikfUsh1QbWumkLaYJRQcvni8xKJ2w%3d&risl=&pid=ImgRaw&r=0) ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family:fantasy;
+  padding: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  width: 180%;
+  background-color: rgb(85, 211, 241);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  max-width: fit-content;
+  border: 5px solid #a920f1;
+  font-size: 50px;
+  margin-top: auto;
+  margin-bottom: 15px;
+  color: #5c23f0;
+  text-align: center;
+  font-family: fantasy;
+}
+h2, h3, h4, h5 {
+  font-size: 30px;
+  color: #5c23f0;
+  text-align: center;
+  font-family: fantasy;
+}
+h6 {
+ font-size: 25px;
+}
+.established {
+  font-style: italic;
+}
+.quiz, .information {
+  width: 80%;
+  background-color: rgb(85, 211, 241);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: fit-content;
+  border: 5px solid #a920f1;
+  font-size: 18px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a:hover {
+  color: #a920f1;
+  cursor: pointer;
+}
+.quiz:hover, .submit:hover {
+  cursor: help;
+}
+hr {
+  height:2px;
+  background-color: #a920f1;
+  border-color: #a920f1;
+}
+.bottom-line {
+  margin-top: 25px;
+}
+.button {
+  background-color: #a920f1;
+  color: #d8e3e6;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}

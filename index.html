@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computational thinking websites</title>
+    <script>
+        function launchRandomSite(){
+            let siteNum = Math.ceil(Math.random() * 10)
+            window.open("comp-think-"+siteNum+"/index.html");
+        }
+    </script>
+    <style>
+        body{
+            background-image: url("sql-background.jpeg");
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        main{
+            min-height: fit-content;
+            margin:0 auto;
+            max-width:500px;
+            background-color: rgba(240, 191, 30, 0.817);
+            padding: 50px;
+        }
+        ul{
+            margin-left: 40px;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+    <p>Here are some websites that explain some key tenets of computational thinking and also showcase some experimentation with client-side web development in our first forays into HTML/CSS/JavaScript. Not necessarily tasteful or understated. The mute button is recommended!</p>
+    <ul>
+        <a href="comp-think-1/index.html" target="_blank" rel="noopener noreferrer"><li>Website 1</li></a><br>
+        <a href="comp-think-2/index.html" target="_blank" rel="noopener noreferrer"><li>Website 2</li></a><br>
+        <a href="comp-think-3/index.html" target="_blank" rel="noopener noreferrer"><li>Website 3</li></a><br>
+        <a href="comp-think-4/index.html" target="_blank" rel="noopener noreferrer"><li>Website 4</li></a><br>
+        <a href="comp-think-5/index.html" target="_blank" rel="noopener noreferrer"><li>Website 5</li></a><br>
+        <a href="comp-think-6/index.html" target="_blank" rel="noopener noreferrer"><li>Website 6</li></a><br>
+        <a href="comp-think-7/index.html" target="_blank" rel="noopener noreferrer"><li>Website 7</li></a><br>
+        <a href="comp-think-8/index.html" target="_blank" rel="noopener noreferrer"><li>Website 8</li></a><br>
+        <a href="comp-think-9/index.html" target="_blank" rel="noopener noreferrer"><li>Website 9</li></a><br>
+        <a href="comp-think-10/index.html" target="_blank" rel="noopener noreferrer"><li>Website 10</li></a><br>
+    </ul>
+    <button onclick = "launchRandomSite()">Take me to a random site!</button>
+    <br>
+</main>
+</body>
+</html>

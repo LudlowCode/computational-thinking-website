@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link href="DaRealCSS.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="menu">
+      <main>
+        <h1>The Four Computational Thinking Aspects</h1>
+        <p class="established">Est. 2020</p>
+        <hr>
+        <section>
+          <h2>Coffee</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          <article class="item">
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+          </article>
+        </section>
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </section>
+        <section class="TheComputationalStuf">
+          <h3>Computational thinking is not just about understanding how computers operate but also about how we approach complex problems in a manner that can be comprehended by a computer. In today’s digital age, possessing computational thinking abilities is paramount. How can we train our minds to process information as a software engineer would? The answer lies in four cornerstone techniques of computational thinking: decomposition, pattern recognition, abstraction, and algorithms.
+            Decomposition: Breaking Down Larger Problems
+            When faced with a complex issue, it’s often challenging to see a direct solution. One way to approach this is by breaking it down into smaller, more manageable subproblems. By understanding these smaller parts, we can more easily devise a solution.
+            Pattern Recognition: Identifying Similarities in Problems
+            After breaking down the problem, the next step is to look for patterns or similarities. By recognizing patterns, we can identify solutions that have worked for similar issues in the past and apply them in a different context.
+            Abstraction: Focusing on the Essential Information
+            Not every detail of a problem needs our attention. Abstraction allows us to filter out irrelevant information and focus solely on vital details. In this way, we can tackle complexity and approach the solution more efficiently.
+            Algorithms: Step-by-step Towards a Solution
+            Once we understand all facets of the problem, we need to devise a series of steps or instructions to resolve it. Algorithms are systematic and logical sequences that, when followed correctly, will produce a solution to the problem at hand.
+            By mastering these four cornerstone techniques, one can train their mind to think more systematically, logically, and critically. In today’s digital age, computational thinking is beneficial not just for IT professionals but for anyone looking to understand and adapt to a world increasingly dominated by technology.
+            In conclusion, let’s begin to view the world through the lens of computational thinking. With the advances in technology, computational thinking will become one of the most valuable skills we can possess. Therefore, let’s start by understanding and mastering the four cornerstone techniques mentioned above.</h3>
+        </section>
+
+
+        <div class="alert1">
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+          <strong>Tough!</strong> You are doing one anyway!
+        </div>
+        <div class="alert2">
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+          <strong>Tough!</strong> You are doing one anyway!
+        </div>
+        <div class="alert3">
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+          <strong>Tough!</strong> You are doing one anyway!
+        </div>
+        <div class="alert4">
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+          <strong>Tough!</strong> You are doing one anyway!
+        </div>
+        <script>
+          var close = document.getElementsByClassName("closebtn");
+          var i;
+          
+          for (i = 0; i < close.length; i++) {
+            close[i].onclick = function(){
+              var div = this.parentElement;
+              div.style.opacity = "0";
+              setTimeout(function(){ div.style.display = "none"; }, 600);
+            }
+          }
+          </script>
+      </main>
+      <hr class="bottom-line">
+      <footer>
+        <p>
+          <a href="file:///C:/Users/19131855/OneDrive%20-%20Herefordshire%20&%20Ludlow%20College/WEB-DEV/LaTest.html.html" target="_blank">Noooo, You found me</a>
+        </p>
+        <p class="address">This is a Footer</p>
+      </footer>
+    </div>
+  </body>
+</html>

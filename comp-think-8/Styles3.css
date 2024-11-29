@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://media.npr.org/assets/img/2015/09/23/ap_836720500193_wide-1be0cfc508ffc714e17caf318ec5103ae1e6d2f4.jpg?s=1400&c=100&f=jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.heading {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 100px;
+}

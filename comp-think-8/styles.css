@@ -1,0 +1,76 @@
+body {
+    background-image: url(https://as2.ftcdn.net/v2/jpg/05/64/01/35/1000_F_564013587_Wx0N82ISn19ZGGMNTFau6qgFX09BKlLD.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1, p, h3 {
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+    font: 
+}
+
+p {
+    text-align: center
+}
+
+.size {
+    width: ;
+}
+
+.menu {
+    width: 100%;
+    background-color: darkslategrey;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active{
+    color:grey;
+}
+
+.established {
+    font: italic;
+}
+
+.paragraph {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+hr {
+    height: 2px;
+    background-color: green;
+    border-color: green;
+    max-width: 700px;
+}
+
+.tip {
+    max-width: 400px;
+    max-height: 200px;
+}

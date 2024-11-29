@@ -1,0 +1,122 @@
+
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-image: url(Link_Background.jpg);
+}  
+
+.question-screenL {
+    background-image: url(Link_BackgroundQ.jpg);
+    width: 612px;
+    height: 516px; 
+    position: relative;
+    float: left;
+ 
+
+}
+  
+.question-screenRT {
+    background-image: url(Link_BackgroundQ.jpg);
+    width: 612px;
+    height: 516px;
+    position: relative;
+    float: right;
+
+} 
+
+.question-screenRB {
+    background-image: url(Link_BackgroundQ.jpg);
+    width: 612px;
+    height: 516px;
+    position: relative;
+    float: right;
+    
+} 
+ 
+ .q1-screen-text {
+    margin-left: 230px;
+    color: lightblue;
+    padding-top: 100px;
+}
+
+.q2-screen-text {
+    margin-left: 100px;
+    color: lightblue;
+    padding-top: 100px;
+}
+
+.q3-screen-text {
+    margin-left: 180px;
+    color: lightblue;
+    padding-top: 100px;
+}
+
+.q4-screen-text {
+    margin-left: 180px;
+    color: lightblue;
+    padding-top: 5px;
+
+}
+.q4-screen-img {
+    margin-left: 90px;
+    color: lightblue;
+    padding-top: 80px;
+}
+
+
+#response-area {
+    color: white;
+    padding-top: 50px;
+    margin-left: 230px;
+    font-weight: bold;
+}
+
+#response-area2 {
+    color: white;
+    padding-top: 50px;
+    margin-left: 230px;
+    font-weight: bold;
+}
+
+#response-area3 {
+    color: white;
+    padding-top: 50px;
+    margin-left: 230px;
+    font-weight: bold;
+}
+
+#response-area4 {
+    color: white;
+    margin-top: -70px;
+    margin-left: 300px;
+    font-weight: bold;
+}
+
+
+
+ul {
+    text-indent: 10px;
+    list-style-type: none;
+    margin-left: 30px;
+    color: white;
+    
+   
+}
+
+a {
+    color: White;
+}
+
+a:visited {
+    color: gainsboro;
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+
+
